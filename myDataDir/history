@@ -1,0 +1,8 @@
+eth.coinbase
+eth.getBalance(eth.coinbase)
+miner.start()
+eth.getBalance(eth.coinbase)
+miner.stop()
+miner.start()
+miner.stop()
+exit()
